@@ -9,8 +9,13 @@
 
 <AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.MenuPrincipalController">
     <children>
-        <Button fx:id="button" layoutX="228.0" layoutY="161.0" onAction="#handleButtonAction" text="Clique Aqui" />
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <JFXButton layoutX="81.0" layoutY="88.0" />
+      <Label layoutX="26.0" layoutY="15.0" text="Num 1 " />
+      <TextField fx:id="txtNum1" layoutX="26.0" layoutY="32.0" />
+      <TextField fx:id="txtNum2" layoutX="26.0" layoutY="88.0" />
+      <TextField fx:id="txtResultado" layoutX="26.0" layoutY="137.0" />
+      <Label layoutX="26.0" layoutY="71.0" text="Num 2" />
+      <Label layoutX="28.0" layoutY="120.0" text="Resultado" />
+      <Button fx:id="btnSoma" layoutX="195.0" layoutY="59.0" mnemonicParsing="false" text="Button" />
     </children>
 </AnchorPane>
